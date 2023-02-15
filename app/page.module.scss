@@ -1,0 +1,679 @@
+
+// @import "bootstrap";
+
+.profile_section{
+    background-color: #24292E;
+    padding-bottom: 50px;
+
+    .profile_heading_row{
+        padding: 28px 0 28px 0;
+        position: relative;
+    }
+
+    .profile_heading_col1{
+        padding-left: 34px;
+    }
+}
+
+.profile_heading{
+    color: white;
+}
+
+.notify_Img1{
+    width: 20px;
+}
+
+.notify_Img2{
+    position: absolute;
+    right: 166px;
+    top: 26.5px;
+    width: 18px;
+}
+
+.profile_heading_col2{
+    display: flex;
+    justify-content:right;
+    padding-right: 40px;
+
+    span{
+        font-size: 0.8rem;
+    }
+
+    .dropdownDiv img{
+        margin: 0 12px 0 23px;
+    }
+}
+
+// Informartion Section One
+
+.Information_row{
+
+    .Personal_info_InnerRow{
+        width: 86%;
+        margin-left: auto;
+        margin-right: 1px;
+        border-radius: 12px;
+        background-color: #2F363D;
+        padding-top: 20px;
+        padding-bottom: 23px;
+    }
+
+    p{
+        font-size: 1.1rem;
+        font-weight: 400;
+        color: white;
+    }
+
+    .Change_password_col span{
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: #13B497;
+        margin-left: 6px;
+        display: inline-block;
+    }
+
+    .Change_password_col img{
+        margin-bottom: 2px;
+    }
+
+    .Change_password_col{
+        text-align: right;
+        padding-right: 17px;
+    }
+
+    .Personal_details_div{
+        padding-top: 18px;
+    }
+
+    .Personal_details_div span{
+        font-size: 0.7rem;
+        color: #969BA0;
+    }
+
+    .Name_input_div{
+        padding-top: 11px;
+    }
+
+    .Name_input_div input{
+        padding: 12px 15px;
+        border-radius: 9px;
+        border: none;
+        font-size: 0.7rem;
+        width: 46%;
+        margin-left: 12px;
+        background-color: #20262D;
+    }
+
+    // Nick Name Css
+
+    .Nickname_input_div{
+        padding-top: 11px;
+    }
+
+    .Nickname_input_div input{
+        padding: 12px 15px;
+        border-radius: 9px;
+        border: none;
+        font-size: 0.7rem;
+        margin-left: 12px;
+        background-color: #20262D;
+        width: 95%;
+    }
+
+    // Social Links Css
+
+    .Social_Link_InnerRow{
+        width: 86%;
+        margin-right: auto;
+        margin-left: 1px;
+        border-radius: 12px;
+        background-color: #2F363D;
+        padding-top: 20px;
+        padding-bottom: 23px;
+    }
+
+    .AddLink_Inner_col2{
+        text-align: right;
+        padding-right: 17px;
+
+        position: relative;
+    }
+
+    .AddLink_Inner_col2 span{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #13B497;
+    }
+
+    .AddLink_img1{
+        position: absolute;
+        right: 70px;
+        top: 5px;
+
+        width: 16px;
+    }
+
+    .AddLink_img2{
+        position: absolute;
+        right: 76.3px;
+        top: 9px;
+        height: 8px;
+    }
+
+    .AddLink_img3{
+        position: absolute;
+        right: 74px;
+        width: 8px;
+        top: 11.5px;
+    }
+
+    // Social Icons
+
+    // .Social_icons_div{
+    //     width: 10%;
+    //     padding-right: 6px;
+    //     display: flex;
+    // }
+
+    .Social_icons_div img{
+        width: 125%;
+        background-color: #198366;
+        padding: 12px 11px;
+        border-radius: 8px; 
+    }
+
+    .Website_input_div{
+        padding-top: 11px;
+    }
+
+    .facebook_icons_div{
+        padding-top: 11px;
+    }
+
+    .Delete_icon_div{
+        padding-top: 17px;
+    }
+
+    .Website_input_div input{
+        padding: 12px 15px;
+        border-radius: 9px;
+        border: none;
+        font-size: 0.7rem;
+        background-color: #20262D;
+        width: 100%;
+        margin-left: 3px;
+        font-weight: 700;
+    }
+
+    .facebook_icons_div div{
+        width: 124%;
+        height: 41px;
+        text-align: center;
+        border-radius: 8px;
+        padding-top: 6px;
+        background-color: #198366;
+
+        position: relative;
+    }
+
+    .InstaIcon_img2{
+        position: absolute;
+        width: 9px;
+        top: 16px;
+        left: 15px;
+    }
+
+    .InstaIcon_img3{
+        position: absolute;
+        top: 15px;
+        left: 23px;
+        width: 2px;
+    }
+
+    .InstaIcon_img1{
+        width: 45%;
+    }
+
+    .Delete_icon_div img{
+        height: 51%;
+    }
+
+    // Payment Method CSS
+
+    .Payment_method_InnerRow{
+        width: 86%;
+        margin-left: auto;
+        margin-right: 1px;
+        border-radius: 12px;
+        background-color: #2F363D;
+        padding-top: 20px;
+        padding-bottom: 23px;
+    }
+
+    .Payment_Inner_col2 span{
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: #13B497;
+    }
+
+    .Payment_Inner_col2{
+        text-align: right;
+        padding-right: 17px;
+
+        position: relative;
+    }
+
+    .AddPayment_img1{
+        position: absolute;
+        right: 148px;
+        top: 5px;
+
+        width: 16px;
+    }
+
+    .AddPayment_img2{
+        position: absolute;
+        right: 154.7px;
+        top: 9px;
+        height: 8px;
+    }
+
+    .AddPayment_img3{
+        position: absolute;
+        right: 152px;
+        width: 8px;
+        top: 11.2px;
+    }
+
+    // Radio Button Div Css
+
+    .Payment_input_div{
+        font-size: 0.8rem;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 9px;
+        background-color:#20262D ;
+
+        margin-top: 11px;
+    }
+
+    .Payment_input_div input{
+        margin-right: 13px;
+    }
+
+    .Payment_icon_div img{
+        width: 65%;
+        margin-top: 24px;
+        margin-left: 1px;
+    }
+
+    // Logo Css
+
+    .Logo_InnerRow{
+        width: 86%;
+        margin-right: auto;
+        margin-left: 1px;
+        border-radius: 12px;
+        background-color: #2F363D;
+        padding-top: 20px;
+        padding-bottom: 23px;
+    }
+
+    .Logo_Inner_col2{
+        font-size: 0.8rem;
+        color: white;
+        text-align: right;
+        padding-right: 17px;
+    }
+
+    .Logo_Inner_col2 input{
+        margin-right: 10px;
+    }
+
+    .Image_Upload_div{
+        background-color: #20262D;
+        border-radius: 33px;
+
+        position: relative;
+    }
+
+    .Cloud_arrow_img{
+        position: absolute;
+        top: 32px;
+        left: 94px;
+
+        height: 7px;
+    }
+
+    .Person_image{
+        width: 64px;
+    }
+
+    .Image_Upload_div span{
+        font-size: 0.8rem;
+        color: #DDDDDD;
+        font-weight: 100;
+    }
+
+    .Image_owner_div p{
+        color: white;
+        font-size: 0.7rem;
+        margin-top: 10px ;
+        margin-bottom: 5px;
+    }
+
+    .Image_owner_div input{
+        padding: 12px 15px;
+        border-radius: 9px;
+        border: none;
+        font-size: 0.7rem;
+        background-color: #20262D;
+        width: 100%;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .main {
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: space-between;
+//   align-items: center;
+//   padding: 6rem;
+//   min-height: 100vh;
+// }
+
+// .description {
+//   display: inherit;
+//   justify-content: inherit;
+//   align-items: inherit;
+//   font-size: 0.85rem;
+//   max-width: var(--max-width);
+//   width: 100%;
+//   z-index: 2;
+//   font-family: var(--font-mono);
+// }
+
+// .description a {
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   gap: 0.5rem;
+// }
+
+// .description p {
+//   position: relative;
+//   margin: 0;
+//   padding: 1rem;
+//   background-color: rgba(var(--callout-rgb), 0.5);
+//   border: 1px solid rgba(var(--callout-border-rgb), 0.3);
+//   border-radius: var(--border-radius);
+// }
+
+// .code {
+//   font-weight: 700;
+//   font-family: var(--font-mono);
+// }
+
+// .grid {
+//   display: grid;
+//   grid-template-columns: repeat(3, minmax(33%, auto));
+//   width: var(--max-width);
+//   max-width: 100%;
+// }
+
+// .card {
+//   padding: 1rem 1.2rem;
+//   border-radius: var(--border-radius);
+//   background: rgba(var(--card-rgb), 0);
+//   border: 1px solid rgba(var(--card-border-rgb), 0);
+//   transition: background 200ms, border 200ms;
+// }
+
+// .card span {
+//   display: inline-block;
+//   transition: transform 200ms;
+// }
+
+// .card h2 {
+//   font-weight: 600;
+//   margin-bottom: 0.7rem;
+// }
+
+// .card p {
+//   margin: 0;
+//   opacity: 0.6;
+//   font-size: 0.9rem;
+//   line-height: 1.5;
+//   max-width: 34ch;
+// }
+
+// .center {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   position: relative;
+//   padding: 4rem 0;
+// }
+
+// .center::before {
+//   background: var(--secondary-glow);
+//   border-radius: 50%;
+//   width: 480px;
+//   height: 360px;
+//   margin-left: -400px;
+// }
+
+// .center::after {
+//   background: var(--primary-glow);
+//   width: 240px;
+//   height: 180px;
+//   z-index: -1;
+// }
+
+// .center::before,
+// .center::after {
+//   content: '';
+//   left: 50%;
+//   position: absolute;
+//   filter: blur(45px);
+//   transform: translateZ(0);
+// }
+
+// .logo,
+// .thirteen {
+//   position: relative;
+// }
+
+// .thirteen {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 75px;
+//   height: 75px;
+//   padding: 25px 10px;
+//   margin-left: 16px;
+//   transform: translateZ(0);
+//   border-radius: var(--border-radius);
+//   overflow: hidden;
+//   box-shadow: 0px 2px 8px -1px #0000001a;
+// }
+
+// .thirteen::before,
+// .thirteen::after {
+//   content: '';
+//   position: absolute;
+//   z-index: -1;
+// }
+
+// /* Conic Gradient Animation */
+// .thirteen::before {
+//   animation: 6s rotate linear infinite;
+//   width: 200%;
+//   height: 200%;
+//   background: var(--tile-border);
+// }
+
+// /* Inner Square */
+// .thirteen::after {
+//   inset: 0;
+//   padding: 1px;
+//   border-radius: var(--border-radius);
+//   background: linear-gradient(
+//     to bottom right,
+//     rgba(var(--tile-start-rgb), 1),
+//     rgba(var(--tile-end-rgb), 1)
+//   );
+//   background-clip: content-box;
+// }
+
+// /* Enable hover only on non-touch devices */
+// @media (hover: hover) and (pointer: fine) {
+//   .card:hover {
+//     background: rgba(var(--card-rgb), 0.1);
+//     border: 1px solid rgba(var(--card-border-rgb), 0.15);
+//   }
+
+//   .card:hover span {
+//     transform: translateX(4px);
+//   }
+// }
+
+// @media (prefers-reduced-motion) {
+//   .thirteen::before {
+//     animation: none;
+//   }
+
+//   .card:hover span {
+//     transform: none;
+//   }
+// }
+
+// /* Mobile and Tablet */
+// @media (max-width: 1023px) {
+//   .content {
+//     padding: 4rem;
+//   }
+
+//   .grid {
+//     grid-template-columns: 1fr;
+//     margin-bottom: 120px;
+//     max-width: 320px;
+//     text-align: center;
+//   }
+
+//   .card {
+//     padding: 1rem 2.5rem;
+//   }
+
+//   .card h2 {
+//     margin-bottom: 0.5rem;
+//   }
+
+//   .center {
+//     padding: 8rem 0 6rem;
+//   }
+
+//   .center::before {
+//     transform: none;
+//     height: 300px;
+//   }
+
+//   .description {
+//     font-size: 0.8rem;
+//   }
+
+//   .description a {
+//     padding: 1rem;
+//   }
+
+//   .description p,
+//   .description div {
+//     display: flex;
+//     justify-content: center;
+//     position: fixed;
+//     width: 100%;
+//   }
+
+//   .description p {
+//     align-items: center;
+//     inset: 0 0 auto;
+//     padding: 2rem 1rem 1.4rem;
+//     border-radius: 0;
+//     border: none;
+//     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
+//     background: linear-gradient(
+//       to bottom,
+//       rgba(var(--background-start-rgb), 1),
+//       rgba(var(--callout-rgb), 0.5)
+//     );
+//     background-clip: padding-box;
+//     backdrop-filter: blur(24px);
+//   }
+
+//   .description div {
+//     align-items: flex-end;
+//     pointer-events: none;
+//     inset: auto 0 0;
+//     padding: 2rem;
+//     height: 200px;
+//     background: linear-gradient(
+//       to bottom,
+//       transparent 0%,
+//       rgb(var(--background-end-rgb)) 40%
+//     );
+//     z-index: 1;
+//   }
+// }
+
+// @media (prefers-color-scheme: dark) {
+//   .vercelLogo {
+//     filter: invert(1);
+//   }
+
+//   .logo,
+//   .thirteen img {
+//     filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
+//   }
+// }
+
+// @keyframes rotate {
+//   from {
+//     transform: rotate(360deg);
+//   }
+//   to {
+//     transform: rotate(0deg);
+//   }
+// }
